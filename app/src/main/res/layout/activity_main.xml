@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="30dp">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+    android:background="@color/white"
+            android:gravity="center"
+      android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/btn_search"
+                android:layout_width="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_height="match_parent"
+                android:translationX="-100dp"
+                android:src="@drawable/ic_baseline_search_24"
+                />
+            <ImageView
+                android:id="@+id/btn_kun"
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="80dp"
+                android:translationX="0dp"
+                android:src="@drawable/kunuz"
+                />
+            <ImageView
+                android:id="@+id/btn_menu"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:translationX="90dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_menu_24"
+                />
+
+        </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+      android:layout_marginVertical="2dp"
+      android:background="#DFD9D9"
+      android:orientation="horizontal"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="130dp"
+          android:background="#DFD9D9"
+          android:orientation="horizontal"
+          >
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="130dp"
+              android:background="#DFD9D9"
+              android:padding="5dp"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:id="@+id/text_1"
+                  android:layout_width="300dp"
+                  android:layout_height="100dp"
+                  android:text="Украина президенти Володимир Зеленский анъанавий кечки нутқида Херсон вилояти аҳолисидан оккупацион кучлар"
+                  android:textSize="18sp"/>
+              <TextView
+                  android:id="@+id/text1_1"
+                  android:layout_width="290dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:translationY="3dp"
+                  android:text="2022.11.14     09:00"
+                  android:textSize="15sp"/>
+
+          </LinearLayout>
+          <ImageView
+              android:id="@+id/img_1"
+              android:layout_width="90dp"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="5dp"
+              android:translationX="-100dp"
+              android:src="@drawable/zelenskiy"/>
+
+      </LinearLayout>
+
+
+
+
+  </LinearLayout>
+      <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+      android:background="#DFD9D9"
+      android:orientation="horizontal"
+      >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="130dp"
+              android:background="#DFD9D9"
+              android:orientation="horizontal"
+              >
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="130dp"
+                  android:background="#DFD9D9"
+                  android:padding="10dp"
+                  android:orientation="vertical"
+                  >
+                  <TextView
+                      android:id="@+id/text_2"
+                      android:layout_width="300dp"
+                      android:layout_height="90dp"
+                      android:text="Ўзбекистонда блэкаут хавфи юзага келди.
+Энергетика вазирлиги ҳузуридаги «Миллий диспетчерлик маркази» давлат унитар корхонаси барча ҳудудий электр тармоқлари   »"
+                      android:textSize="18sp"/>
+                  <TextView
+                      android:id="@+id/text2_2"
+                      android:layout_width="290dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:translationY="3dp"
+                      android:text="2022.11.13    20:00"
+                      android:textSize="15sp"/>
+
+              </LinearLayout>
+              <ImageView
+                  android:id="@+id/img_2"
+                  android:layout_width="90dp"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="5dp"
+                  android:translationX="-100dp"
+                  android:src="@drawable/blackout"/>
+
+          </LinearLayout>
+
+  </LinearLayout>
+ <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+      android:layout_marginVertical="2dp"
+    android:background="#DFD9D9"
+      android:orientation="horizontal"
+      >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="130dp"
+         android:background="#DFD9D9"
+         android:orientation="horizontal"
+         >
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="130dp"
+             android:background="#DFD9D9"
+             android:padding="10dp"
+             android:orientation="vertical"
+             >
+             <TextView
+                 android:id="@+id/text_3"
+                 android:layout_width="300dp"
+                 android:layout_height="90dp"
+                 android:text="Япония Ўзбекистонда литий батареяларини ишлаб чиқариш масаласини ўрганяпти
+"
+                 android:textSize="18sp"/>
+             <TextView
+                 android:id="@+id/text3_3"
+                 android:layout_width="290dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:translationY="3dp"
+                 android:text="2022.11.14    09:35"
+                 android:textSize="15sp"/>
+
+         </LinearLayout>
+         <ImageView
+             android:id="@+id/img_3"
+             android:layout_width="90dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="5dp"
+             android:translationX="-100dp"
+             android:src="@drawable/japan"/>
+
+     </LinearLayout>
+
+
+  </LinearLayout>
+<LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+    android:background="#DFD9D9"
+      android:orientation="horizontal"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#DFD9D9"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#DFD9D9"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Туркий давлатлар ташкилоти Самарқанд саммити ҳамкорликнинг янги босқичига асос яратди"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/text4_4"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:translationY="3dp"
+                android:layout_marginLeft="10dp"
+                android:text="2022.11.13    20:30"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:translationX="-100dp"
+            android:src="@drawable/turkish_summit"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+      <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+      android:layout_marginVertical="2dp"
+    android:background="#DFD9D9"
+      android:orientation="horizontal"
+      >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="130dp"
+              android:background="#DFD9D9"
+              android:orientation="horizontal"
+              >
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="130dp"
+                  android:background="#DFD9D9"
+                  android:padding="10dp"
+                  android:orientation="vertical"
+                  >
+                  <TextView
+                      android:id="@+id/text_5"
+                      android:layout_width="300dp"
+                      android:layout_height="90dp"
+                      android:text="Истанбулда портлаш: Ўзбекистон Бош консуллиги вазиятни назорат қилаётгани ҳолда шаҳар штаби билан алоқада бўлиб турибди"
+                      android:textSize="18sp"/>
+                  <TextView
+                      android:id="@+id/text5_5"
+                      android:layout_width="290dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:translationY="3dp"
+                      android:text="2011.11.13  12:00"
+                      android:textSize="15sp"/>
+
+              </LinearLayout>
+              <ImageView
+                  android:id="@+id/img_5"
+                  android:layout_width="90dp"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="5dp"
+                  android:translationX="-100dp"
+                  android:src="@drawable/portlash"/>
+
+          </LinearLayout>
+
+
+      </LinearLayout>
+  </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
